@@ -1,5 +1,66 @@
+# ================================
+# ✅ SITE SETTINGS
+# ================================
+title: "Swathi Shree Narashiman"
+description: "Personal Portfolio"
+url: "https://BaristaBandits.github.io"   # replace with your GitHub Pages URL
+baseurl: ""   # leave blank unless you're hosting in a subfolder
+
+# ================================
+# ✅ THEME + PLUGINS
+# ================================
 remote_theme: pages-themes/time-machine@v0.2.0
+
 plugins:
--jekyll-remote-theme
-title:[Swathi Shree Narashiman]
-description: [Personal Portfolio]
+  - jekyll-remote-theme
+  - jekyll-seo-tag        # improves google search visibility
+  - jekyll-sitemap        # auto generates sitemap.xml
+  - jekyll-feed           # RSS feed support
+  - jekyll-include-cache  # speeds up builds
+
+# ================================
+# ✅ MARKDOWN SETTINGS
+# ================================
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+
+# ================================
+# ✅ NAVIGATION LINKS (OPTIONAL)
+# ================================
+# If you want top navigation links
+header_pages:
+  - index.md
+  - projects.md
+  - resume.md
+  - contact.md
+
+# ================================
+# ✅ SOCIAL LINKS (OPTIONAL)
+# ================================
+social_links:
+  github: "https://github.com/BaristaBandits"
+  linkedin: "www.linkedin.com/in/swathi-narashiman"
+  email: "swathi.narash@gmail.com"
+
+# ================================
+# ✅ PERSONAL BRANDING (OPTIONAL)
+# ================================
+logo: "/assets/img/profile.jpg"   # add image to /assets/img/
+favicon: "/assets/img/favicon.ico"
+
+# ================================
+# ✅ GOOGLE ANALYTICS (OPTIONAL)
+# ================================
+google_analytics: ""   # Add your GA tracking ID here if needed
+
+# ================================
+# ✅ EXCLUDE FILES FROM BUILD
+# ================================
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+
