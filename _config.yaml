@@ -47,7 +47,7 @@ social_links:
 # ================================
 # ✅ PERSONAL BRANDING (OPTIONAL)
 # ================================
-logo: "/assets/img/profile.jpg"   # add image to /assets/img/
+logo: "/assets/img/profile.png"   # add image to /assets/img/
 favicon: "/assets/img/favicon.ico"
 
 # ================================
