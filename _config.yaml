@@ -33,6 +33,7 @@ highlighter: rouge
 header_pages:
   - index.md
   - projects.md
+  - technical.md
   - resume.md
   - contact.md
 
