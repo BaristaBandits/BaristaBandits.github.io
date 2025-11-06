@@ -1,22 +1,23 @@
-# ================================
-# ✅ SITE SETTINGS
-# ================================
 title: "Swathi Shree Narashiman"
-description: "Personal Portfolio"
-url: "https://BaristaBandits.github.io"   # replace with your GitHub Pages URL
-baseurl: ""   # leave blank unless you're hosting in a subfolder
+description: "Personal Portfolio • AI, Machine Learning & Research"
+url: "https://BaristaBandits.github.io"
+baseurl: ""
 
 # ================================
 # ✅ THEME + PLUGINS
 # ================================
-remote_theme: jekyll-theme-minimal
+theme: "minimal-mistakes-jekyll"
 
 plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-paginate
   - jekyll-remote-theme
-  - jekyll-seo-tag        # improves google search visibility
-  - jekyll-sitemap        # auto generates sitemap.xml
-  - jekyll-feed           # RSS feed support
-  - jekyll-include-cache  # speeds up builds
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # ================================
 # ✅ MARKDOWN SETTINGS
@@ -27,41 +28,57 @@ kramdown:
 highlighter: rouge
 
 # ================================
-# ✅ NAVIGATION LINKS (OPTIONAL)
+# ✅ NAVIGATION BAR
 # ================================
-# If you want top navigation links
-header_pages:
-  - index.md
-  - projects.md
-  - technical.md
-  - resume.md
-  - contact.md
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Technical"
+    url: /technical/
+  - title: "Resume"
+    url: /resume/
+  - title: "Contact"
+    url: /contact/
 
 # ================================
-# ✅ SOCIAL LINKS (OPTIONAL)
+# ✅ SOCIAL LINKS
 # ================================
-social_links:
-  github: "https://github.com/BaristaBandits"
-  linkedin: "www.linkedin.com/in/swathi-narashiman"
-  email: "swathi.narash@gmail.com"
+author:
+  name: "Swathi Shree Narashiman"
+  avatar: "/assets/img/profile.png"
+  bio: "Undergraduate at IIT Madras • Interested in ML, Optimization, Information Theory & Game Theory"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/BaristaBandits"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/swathi-narashiman"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:swathi.narash@gmail.com"
 
 # ================================
-# ✅ PERSONAL BRANDING (OPTIONAL)
+# ✅ BRANDING
 # ================================
-logo: "/assets/img/profile.png"   # add image to /assets/img/
+logo: "/assets/img/profile.png"
 favicon: "/assets/img/favicon.ico"
 
 # ================================
 # ✅ GOOGLE ANALYTICS (OPTIONAL)
 # ================================
-google_analytics: ""   # Add your GA tracking ID here if needed
+google_analytics: ""   # Add ID when ready
 
 # ================================
-# ✅ EXCLUDE FILES FROM BUILD
+# ✅ EXCLUDE FILES
 # ================================
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
+
+
 
