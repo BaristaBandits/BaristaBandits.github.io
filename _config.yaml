@@ -6,7 +6,7 @@ baseurl: ""
 # ================================
 # ✅ THEME + PLUGINS
 # ================================
-theme: "minimal-mistakes-jekyll"
+
 
 plugins:
   - jekyll-include-cache
