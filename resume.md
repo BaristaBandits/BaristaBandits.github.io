@@ -5,8 +5,7 @@ title: Resume
 
 # 📄 Resume
 
-You can view or download my latest CV below:
+<iframe src="/Resume_Swathi.pdf" width="100%" height="800px" style="border:none;">
+</iframe>
 
-👉 [**View My CV (PDF)**](/Resume_Swathi.pdf){:target="_blank"}
-
-_Last updated: November 2025_
+If the preview doesn’t load, [click here to open the CV](/assets/files/Swathi_Shree_Narashiman_CV.pdf){:target="_blank"}.
