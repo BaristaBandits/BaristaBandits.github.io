@@ -60,7 +60,7 @@ author:
 # ================================
 # ✅ BRANDING IMAGES
 # ================================
-logo: "{{ site.baseurl }}/assets/img/profile.jpeg"
+logo: "/img/profile.jpeg"
 favicon: ""
 
 # ================================
