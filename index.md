@@ -3,8 +3,8 @@ layout: default
 title: Home
 ---
 
-<p align="center">
-  <img src="/img/profile.png" alt="Swathi Shree Narashiman" width="180" style="border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p align="left">
+  <img src="/img/profile.jpeg" alt="Swathi Shree Narashiman" width="180" style="border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </p>
 
 # Hi, I'm Swathi 👋
