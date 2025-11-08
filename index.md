@@ -22,5 +22,6 @@ My interests include **Theoretical Machine Learning, Optimization, and Informati
 
 ## 🔗 Quick Links
 - [View my projects](./projects.md)
+- [Course projects](./technical.md)
 - [See my resume](./resume.md)
 - [Get in touch](./contact.md)
