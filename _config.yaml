@@ -1,26 +1,23 @@
+# ================================
+# ✅ SITE SETTINGS
+# ================================
 title: "Swathi Shree Narashiman"
 description: "Personal Portfolio • AI, Machine Learning & Research"
-url: "https://BaristaBandits.github.io"
-baseurl: ""
+url: "https://BaristaBandits.github.io"  # your GitHub Pages URL
+baseurl: ""  # if hosted at https://BaristaBandits.github.io; use "/portfolio" if in subdirectory
 
 # ================================
-# ✅ THEME + PLUGINS
+# ✅ THEME SETTINGS
 # ================================
-
+theme: jekyll-theme-cayman
 
 plugins:
-  - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-remote-theme
-
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # ================================
-# ✅ MARKDOWN SETTINGS
+# ✅ MARKDOWN + HIGHLIGHTING
 # ================================
 markdown: kramdown
 kramdown:
@@ -28,26 +25,26 @@ kramdown:
 highlighter: rouge
 
 # ================================
-# ✅ NAVIGATION BAR
+# ✅ NAVIGATION BAR (Cayman supports header links)
 # ================================
 navigation:
   - title: "Home"
-    url: /
+    url: "{{ site.baseurl }}/"
   - title: "Projects"
-    url: /projects/
+    url: "{{ site.baseurl }}/projects/"
   - title: "Technical"
-    url: /technical/
+    url: "{{ site.baseurl }}/technical/"
   - title: "Resume"
-    url: /resume/
+    url: "{{ site.baseurl }}/resume/"
   - title: "Contact"
-    url: /contact/
+    url: "{{ site.baseurl }}/contact/"
 
 # ================================
-# ✅ SOCIAL LINKS
+# ✅ AUTHOR INFO
 # ================================
 author:
   name: "Swathi Shree Narashiman"
-  avatar: "/assets/img/profile.png"
+  avatar: "{{ site.baseurl }}/assets/img/profile.png"
   bio: "Undergraduate at IIT Madras • Interested in ML, Optimization, Information Theory & Game Theory"
   links:
     - label: "GitHub"
@@ -61,24 +58,25 @@ author:
       url: "mailto:swathi.narash@gmail.com"
 
 # ================================
-# ✅ BRANDING
+# ✅ BRANDING IMAGES
 # ================================
-logo: "/assets/img/profile.png"
-favicon: "/assets/img/favicon.ico"
+logo: "{{ site.baseurl }}/assets/img/profile.png"
+favicon: ""
 
 # ================================
-# ✅ GOOGLE ANALYTICS (OPTIONAL)
+# ✅ GOOGLE ANALYTICS (optional)
 # ================================
-google_analytics: ""   # Add ID when ready
+google_analytics: ""  # Add tracking ID when ready
 
 # ================================
-# ✅ EXCLUDE FILES
+# ✅ EXCLUDE FILES FROM BUILD
 # ================================
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
+
 
 
 
