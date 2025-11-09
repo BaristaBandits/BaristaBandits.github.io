@@ -44,7 +44,6 @@ navigation:
 # ================================
 author:
   name: "Swathi Shree Narashiman"
-  avatar: "/img/profile.png"
   bio: "Undergraduate at IIT Madras • Interested in ML, Optimization, Information Theory & Game Theory"
   links:
     - label: "GitHub"
@@ -61,7 +60,6 @@ author:
 # ✅ BRANDING IMAGES
 # ================================
 logo: "/img/profile.jpeg"
-favicon: ""
 
 # ================================
 # ✅ GOOGLE ANALYTICS (optional)
