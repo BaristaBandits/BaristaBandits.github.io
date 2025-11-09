@@ -43,7 +43,7 @@ permalink: /
 ---
 
 ## 🔗 Quick Links
-- [Projects](./projects)
+- [Projects](./project)
 - [Course Projects](./technical)
 - [Resume](./resume)
 
