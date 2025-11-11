@@ -1,7 +1,10 @@
+
 ---
-layout: home
+layout: single
 title: "Swathi Shree Narashiman"
+classes: wide
 ---
+
 
 <p align="left">
   <img src="/img/profile.jpeg" alt="Swathi Shree Narashiman" width="200" style="border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
