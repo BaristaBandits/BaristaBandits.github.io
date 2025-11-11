@@ -9,12 +9,14 @@ baseurl: ""  # if hosted at https://BaristaBandits.github.io; use "/portfolio" i
 # ================================
 # ✅ THEME SETTINGS
 # ================================
-remote_theme: "mmistakes/minimal-mistakes"
+# Pinning to a GitHub Pages–compatible version of Minimal Mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-include-cache   # ✅ Added to fix include_cached tag issue
 
 # ================================
 # ✅ MARKDOWN + HIGHLIGHTING
@@ -25,7 +27,7 @@ kramdown:
 highlighter: rouge
 
 # ================================
-# ✅ NAVIGATION BAR (Cayman supports header links)
+# ✅ NAVIGATION BAR
 # ================================
 navigation:
   - title: "Home"
@@ -74,7 +76,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-
-
-
 
