@@ -1,10 +1,9 @@
 ---
 layout: home
 title: "Swathi Shree Narashiman"
-permalink: 
 ---
 
-<p align="center">
+<p align="left">
   <img src="/img/profile.jpeg" alt="Swathi Shree Narashiman" width="200" style="border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 </p>
 
@@ -36,7 +35,4 @@ My interests lie in **Theoretical Machine Learning**, **Optimization**, and **In
 - [Contact](./contact)
 
 ---
-
-📧 [swathi.narash@gmail.com](mailto:swathi.narash@gmail.com)  
-🌐 [LinkedIn](https://www.linkedin.com/in/swathi-narashiman) | [GitHub](https://github.com/BaristaBandits)
 
