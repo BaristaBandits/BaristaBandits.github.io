@@ -1,9 +1,12 @@
 ---
 layout: home
 title: "Swathi Shree Narashiman"
-permalink: /
-author_profile: true
+permalink: 
 ---
+
+<p align="center">
+  <img src="{{ site.logo }}" alt="Swathi Shree Narashiman" width="200" style="border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</p>
 
 # 👋 Hi, I'm Swathi
 
