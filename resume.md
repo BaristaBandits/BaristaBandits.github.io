@@ -12,4 +12,4 @@ title: Resume
   </p>
 </object>
 
-[⬇️ Download Resume (PDF)](/assets/files/Swathi_Shree_Narashiman_CV.pdf){:target="_blank" download}
+[⬇️ Download Resume (PDF)](/Resume_Swathi.pdf){:target="_blank" download}
