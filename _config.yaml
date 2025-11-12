@@ -9,7 +9,7 @@ baseurl: ""  # if hosted at https://BaristaBandits.github.io; use "/portfolio" i
 # ================================
 # ✅ THEME SETTINGS
 # ================================
-remote_theme: "mmistakes/so-simple-theme"
+remote_theme: "jeffreytse/jekyll-theme-yat"
 
 plugins:
   - jekyll-feed
