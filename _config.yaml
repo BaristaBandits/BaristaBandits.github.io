@@ -15,7 +15,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
-  - jekyll-include-cache   # ✅ added so {% include_cached %} works (fixes your build error)
+  - jekyll-include-cache   # ✅ allows {% include_cached %}
 
 # ================================
 # ✅ MARKDOWN + HIGHLIGHTING
@@ -24,6 +24,19 @@ markdown: kramdown
 kramdown:
   input: GFM
 highlighter: rouge
+
+# ================================
+# ✅ CUSTOM STYLING FIX
+# ================================
+sass:
+  sass_dir: _sass
+  style: compressed
+
+include:
+  - assets/css
+
+head_scripts:
+  - head-custom.html   # ensures our custom CSS is included
 
 # ================================
 # ✅ NAVIGATION BAR
@@ -44,7 +57,6 @@ navigation:
 # ✅ AUTHOR INFO
 # ================================
 author:
-  name: "Swathi Shree Narashiman"
   bio: "Undergraduate at IIT Madras • Interested in ML, Optimization, Information Theory & Game Theory"
   links:
     - label: "GitHub"
@@ -56,8 +68,6 @@ author:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:swathi.narash@gmail.com"
-
-
 
 # ================================
 # ✅ GOOGLE ANALYTICS (optional)
@@ -72,5 +82,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+
 
 
