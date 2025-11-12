@@ -33,7 +33,7 @@ sass:
   style: compressed
 
 include:
-  - assets/css
+  - css
 
 head_scripts:
   - head-custom.html   # ensures our custom CSS is included
