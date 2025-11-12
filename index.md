@@ -4,17 +4,20 @@ title: "Swathi Shree Narashiman"
 ---
 
 
-<p align="left">
-  <img src="/img/profile.jpeg" alt="Swathi Shree Narashiman" width="200" style="border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-</p>
+<div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem; padding-left: 1rem;">
+  <img src="/img/profile.jpeg"
+       alt="Swathi Shree Narashiman"
+       width="180"
+       style="border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <div>
+    <h1>👋 Hi, I'm Swathi</h1>
+    <p>
+      I’m a final-year <strong>Electrical Engineering</strong> student at <strong>IIT Madras</strong>.<br>
+      My interests lie in <strong>Theoretical Machine Learning</strong>, <strong>Optimization</strong>, and <strong>Information Theory</strong>.
+    </p>
+  </div>
+</div>
 
-
-# 👋 Hi, I'm Swathi
-
-I’m a final-year **Electrical Engineering** student at **IIT Madras**.  
-My interests lie in **Theoretical Machine Learning**, **Optimization**, and **Information Theory**.
-
----
 
 ## 🔹 About Me
 
