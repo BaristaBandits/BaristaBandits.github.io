@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Swathi Shree Narashiman"
-classes: wide
 ---
 
 
