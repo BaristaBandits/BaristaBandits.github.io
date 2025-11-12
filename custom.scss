@@ -1,0 +1,37 @@
+// ===================================
+// Custom Styles to Fix Page Width
+// ===================================
+
+// Import default academicpages styles
+@import "academicpages";
+
+// Limit overall content width
+.page__content,
+.main-content,
+.site-main,
+.post,
+.single,
+.layout--single {
+  max-width: 900px;    // <-- adjust this (800–1000px is ideal)
+  margin: 0 auto;      // centers the content
+  padding: 2rem 1rem;  // add breathing room
+}
+
+// Keep headers & footers aligned with main content
+.site-header,
+.site-footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+// Prevent very wide tables or code blocks from overflowing
+.page__content pre,
+.page__content table {
+  overflow-x: auto;
+}
+
+// Optional: soften the background a bit
+body {
+  background-color: #fafafa;
+}
