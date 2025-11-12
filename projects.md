@@ -3,6 +3,8 @@ layout: default
 title: Projects
 ---
 
+<div style="max-width: 760px; margin: 0 auto; padding: 2rem 1rem;">
+  
 # Research Projects
 
 ## ALPHAZIP: Neural Network-Enhanced Lossless Text Compression  
