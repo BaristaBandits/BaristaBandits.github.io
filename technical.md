@@ -3,7 +3,8 @@ layout: default
 title: Projects
 ---
 
-
+<div style="max-width: 760px; margin: 0 auto; padding: 2rem 1rem;">
+  
 # Course Projects
 
 ## Online Algorithms for AdWords & Bipartite Matching  
