@@ -3,48 +3,55 @@ layout: default
 title: Projects
 ---
 
-<div style="max-width: 760px; margin: 0 auto; padding: 2rem 1rem;" markdown="1">
+<div style="max-width: 760px; margin: 0 auto; padding: 2rem 1rem; text-align: center;" markdown="1">
 
-<div style="text-align: center; margin-bottom: 2rem;">
-  <h1 style="margin: 0;">Course Projects</h1>
-</div>
+# Course Projects
 
 ---
 
-## **Online Algorithms for AdWords & Bipartite Matching**  
+## Online Algorithms for AdWords & Bipartite Matching  
 *Jan ’25 – May ’25 · [CS6170 Randomized Algorithms](https://yaduvasudev.github.io/) · IIT Madras*  
 
-Surveyed techniques based on primal-dual updates & perturbation improving the classical **(1 - 1/e)** bound.  
+<span style="display: block; text-align: left;">
+Surveyed techniques based on primal-dual updates & perturbation improving the classical **(1 - 1/e)** bound.
+</span>
 
 🔗 [Video](https://www.youtube.com/watch?v=DPSVkUDL03A) · 🔗 [Report](https://drive.google.com/file/d/1vId2ShZRIf5f-sbt-XFX1n0PLQY2PEd_/view?usp=sharing)
 
 ---
 
-## **Textual Inversion for Stable Diffusion (Few-Shot Generation)**  
+## Textual Inversion for Stable Diffusion (Few-Shot Generation)  
 *Jan ’25 – May ’25 · [EE6180 Advanced Topics in AI](https://www.ee.iitm.ac.in/faculty/profile/pravinnair)*  
 
+<span style="display: block; text-align: left;">
 Trained custom SD token embeddings (<1M params) to learn movie characters from **5–10 images**.  
-Designed prompt templates + token strategies to improve realism + control.  
+Designed prompt templates + token strategies to improve realism + control.
+</span>
 
 🔗 [GitHub](https://github.com/BaristaBandits/Textual-Inversion) · 🔗 [Report](https://drive.google.com/file/d/1t709BWI4vvmvCtsgbM_kDGqmxWVTdsov/view?usp=sharing)
 
 ---
 
-## **Glauber Dynamics in Sparse Ising Models**  
+## Glauber Dynamics in Sparse Ising Models  
 *Jan ’25 – May ’25 · [EE6150 Stochastic Modeling](https://www.ee.iitm.ac.in/faculty/profile/avhishek)*  
 
-Studied log-Sobolev methods + graph decomposition for near-linear mixing time sampling.  
+<span style="display: block; text-align: left;">
+Studied log-Sobolev methods + graph decomposition for near-linear mixing time sampling.
+</span>
 
 🔗 [Report](https://drive.google.com/file/d/14Xo1gGYeEDqNcHDyOoBkStagRADqIiwg/view?usp=sharing)
 
 ---
 
-## **Chiplets on Wheels: Modular SoC Architecture for Autonomous Vehicles**  
+## Chiplets on Wheels: Modular SoC Architecture for Autonomous Vehicles  
 *2024 · Team Research Project · IIT Madras*  
 
-Proposed low-cost chiplet-based compute architecture for electric vehicles; **published on arXiv**.  
+<span style="display: block; text-align: left;">
+Proposed low-cost chiplet-based compute architecture for electric vehicles; **published on arXiv**.
+</span>
 
 🔗 [Paper](https://arxiv.org/abs/2406.00182)
 
 </div>
+
 
