@@ -2,7 +2,7 @@
 layout: default
 title: Contact
 ---
-<div style="max-width: 760px; margin: 0 auto; padding: 2rem 1rem;">
+<div style="max-width: 760px; margin: 0 auto; padding: 2rem 1rem;", markdown="1">
 
   
 # Contact
