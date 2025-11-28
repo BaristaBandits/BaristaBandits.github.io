@@ -4,8 +4,14 @@ title: Projects
 ---
 
 <div style="max-width: 760px; margin: 0 auto; padding: 2rem 1rem;", markdown="1">
-  
-# Course Projects
+
+
+<div style="max-width: 720px; margin: 0 auto; padding: 2rem 1rem;" markdown="1">
+
+<div style="text-align: center; margin-bottom: 2rem;">
+  <h1 style="margin: 0;"> Course Projects</h1>
+</div>
+
 
 ## Online Algorithms for AdWords & Bipartite Matching  
 *(Jan ’25 – May ’25 · [CS6170 Randomized Algorithms](https://yaduvasudev.github.io/) · IIT Madras)*  
