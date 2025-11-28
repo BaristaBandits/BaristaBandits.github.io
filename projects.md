@@ -4,8 +4,12 @@ title: Projects
 ---
 
 <div style="max-width: 760px; margin: 0 auto; padding: 2rem 1rem;", markdown="1">
-  
-# Research Projects
+
+<div style="max-width: 720px; margin: 0 auto; padding: 2rem 1rem;" markdown="1">
+
+<div style="text-align: center; margin-bottom: 2rem;">
+  <h1 style="margin: 0;">Research Projects</h1>
+</div>
 
 ## ALPHAZIP: Neural Network-Enhanced Lossless Text Compression  
 *(Aug ’23 – Sep ’24 · IIT Madras · Advisor: [Prof. Nitin Chandrachoodan](https://www.ee.iitm.ac.in/faculty/profile/nitin))*  
